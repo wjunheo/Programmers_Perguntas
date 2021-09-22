@@ -15,13 +15,13 @@ class collatz {
             } else {
                 num = num * 3 + 1;
             }
-            count++;
+            count++; // 카운트를 더하다가
             
             if (count > 500)
-                return -1;
+                return -1; // 카운트가 500이 넘으면 리턴하고
         }
         
-        return count;
+        return count; //500 전까지는 계속 와일문 돌기
     }
 }
 
