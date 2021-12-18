@@ -30,3 +30,9 @@ public class smallnumberDelete {
 	}
 
 }
+
+class AB extends smallnumberDelete {
+	public static void main(String[] args) {
+
+	}
+}
